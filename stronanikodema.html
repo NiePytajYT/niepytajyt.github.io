@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/937656476430897182/1086379660465676339/image.png">
+    <title>Nikodemus van Ignacz</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+/* resetowanie stylów domyślnych */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styl nagłówka */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* styl sekcji o malarzu */
+#o-malarzu {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#o-malarzu img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  border: 5px solid #000;
+}
+
+#o-malarzu p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* styl sekcji dzieł */
+#dzieła {
+  background-color: #faf0e6;
+  padding: 2rem;
+}
+
+#dzieła ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-top: 1rem;
+  text-items: center;
+}
+
+#dzieła li {
+  flex: 1 1 30%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  text-items: center;
+}
+
+#dzieła img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* styl sekcji wystaw */
+#wystawy {
+  background-color: #f7c272;
+  color: #000;
+  padding: 2rem;
+}
+
+#wystawy h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#wystawy ul {
+  list-style: none;
+  text-align: center;
+}
+
+#wystawy li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* styl sekcji kontakt */
+#kontakt {
+  background-color: #7a92a3;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#kontakt h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#kontakt ul {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#kontakt li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+#kontakt a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+#kontakt a:hover {
+  color: #f7c272;
+}
+
+</style>
+</head>
+  <body>
+    <header>
+      <h1>Nikodemus van Ignacz</h1>
+      <nav>
+        <ul>
+          <li><a href="#o-malarzu">O malarzu</a></li>
+          <li><a href="#dzieła">Dzieła Sztuki</a></li>
+          <li><a href="#wystawy">Wystawy</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="o-malarzu">
+        <h2>O malarzu</h2>
+        <img src="https://cdn.discordapp.com/attachments/937656476430897182/1086379660465676339/image.png" alt="Znany Malarz - dok. prof. mal. Nikodemus van Ignacz">
+        <p>Ten znany Malarz jest jednym z najbardziej znanych artystów w Polsce. Urodził się w 1960 roku w Warszawie i od najmłodszych lat interesował się sztuką. Studiował w Akademii Sztuk Pięknych w Warszawie, gdzie uzyskał dyplom z malarstwa.</p>
+        <p>Jego prace charakteryzują się wyjątkową kolorystyką i pejzażami, które przyciągają uwagę wielu miłośników sztuki. Nikodemus van Ignacz zdobył wiele nagród i wyróżnień, a jego prace znajdują się w kolekcjach prywatnych i muzeach na całym świecie.</p>
+      </section>
+
+      <section id="dzieła">
+        <h2>Dzieła Sztuki</h2>
+        <ul>
+          <li><img src="https://cdn.discordapp.com/attachments/937461421690732554/1086368695011528704/image.png" alt="Obraz: Julka" style="margin: 5px; padding: 5px"></li>
+       <li><img src="https://cdn.discordapp.com/attachments/937656476430897182/1086393751448064100/image.png" alt="Obraz 3" style="margin: 5px; padding: 5px"></li>   
+<li><img src="https://cdn.discordapp.com/attachments/937461421690732554/1086369224777281627/image.png" alt="Obraz 2" style="margin: 5px; padding: 5px"></li>
+        </ul>
+      </section>
+
+      <section id="wystawy">
+        <h2>Wystawy</h2>
+        <ul>
+          <li>Wystawa "Julka" - Muzeum Sztuki Nowoczesnej w Warszawie (kwiecień-maj 2023)</li>
+        </ul>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+<p>Jeśli chcesz uzyskać więcej informacji na temat Nikodemusa van Ignacza lub jego prac, skontaktuj się z nami:</p>
+<ul>
+<li>Telefon: (+48) 420 692 137, 666 133 769</li>
+<li>Email: nikodemusvanignacz@galeriasztuki.pl</li>
+<li>Adres: al. Jerozolimskie 92, 00-807 Warszawa</li>
+</ul>
+</section>
+</main>
+<footer>
+  <p>&copy; 2023 Nikodemus van Ignacz - Galeria Sztuki</p>
+</footer>
+</body>
+</html>
